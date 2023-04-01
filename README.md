@@ -3,5 +3,20 @@ This is a DIY Function Generator that operates between 1Hz - 20MHz and the signa
 The original creator is the instructable user Wolf2018, you can find the original project here :
 https://www.instructables.com/Poor-Mans-Waveform-Generator-Based-on-RP2040-Raspb/
 I designed a PCB with EasyEDA software and printed it on a copper board that later I etched it wit FeCl3 Acid.
+
 ![1](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/2.jpg)
 ![2](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/3.jpg)
+
+It has multiple waveforms: Sine, Pulse, SinC, Gaussian and Noise.
+I used MJE350 and KSE340 for the amplifier, and the upper bandwith is limited to 3Mhz.
+
+![3](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/4.jpg)
+![4](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/1.jpg)
+
+I added a 1k potentiometer with two 220ohm resistors for offset. The middle pin of the potentiometer is connected after the capactitor on the op-amp outpu. It works well with lower frequencies and you can make a PWM wave.
+
+![5](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/7.jpg)
+
+Please note that at mid to high frequency levels, if you use a low impedence load, the signal amplitude drops. Here I added a 22ohm load:
+
+![6](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/9.jpg)
