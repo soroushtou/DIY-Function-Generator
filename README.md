@@ -10,7 +10,6 @@ I designed a PCB with EasyEDA software and printed it on a copper board that lat
 It has multiple waveforms: Sine, Pulse, SinC, Gaussian and Noise.
 I used MJE350 and KSE340 for the amplifier, and the upper bandwith is limited to 3Mhz.
 
-![3](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/4.jpg)
 ![4](https://github.com/soroushtou/DIY-Function-Generator/blob/main/images/1.jpg)
 
 I added a 1k potentiometer with two 220ohm resistors for offset. The middle pin of the potentiometer is connected after the capactitor on the op-amp outpu. It works well with lower frequencies and you can make a PWM wave.
